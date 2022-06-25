@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+
+</head>
+<body>
+<div class="mainDiv"> 
+<section class="mainSection"> 
+    <div class="balanceHolder">
+    <h1 class="accountBalance">My balance</h1>
+    <span><h1 class="amountHolder">$921.48</h1></span>
+    </div>   
+    <img class="logo" src="images\logo.svg" alt="sitesLogo">
+</section>
+
+  <section class="spendingData"> 
+    <h1 class="spendingTitle">Spending - Last 7 days</h1>
+  
+  <div class="chart">
+  <ul id="bars">
+  
+    <li><div id="bar" data-percentage="85.54"></div><span>Mon</span></li>
+    <li><div id="bar1" data-percentage="60.25"></div><span>Tue</span></li>
+    <li><div id="bar2" data-percentage="58.35"></div><span>Wed</span></li>
+    <li><div id="bar3" data-percentage="35.06"></div><span>Thu</span></li>
+    <li><div id="bar4" data-percentage="25.02"></div><span>Fri</span></li>
+    <li><div id="bar5" data-percentage="95.98"></div><span>Sat</span></li>
+    <li><div id="bar6" data-percentage="75.55"></div><span>Sun</span></li>
+  </ul>
+</div>
+<br>
+<hr>
+
+  <div class="totalThisMonth">
+    <h1 class="spendingTitleThisMonth">Total this month</h3>
+    <h1 id="spendingAmount">$478.33</h1>
+  </div>
+
+  <div class="lastMonthData">
+    <p class="lastMonthAmount">+4.9%</p>
+    <p class="lastMonthTitle">from last month</p>
+  </div>
+
+</section>
+</div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Rudolf Luayon</a>.
+  </div>
+  <script src="expense-chart.js"></script>
+</body>
+</html>
